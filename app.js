@@ -10,8 +10,8 @@ const gallery = document.getElementById("gallery");
 // This method loops through an array/list to look at each item inside
 petImages.forEach((fileName) => {
   // we replace any -, remove the file extension, then split the owner and pet name
-  fileName.replace("-", " ")
-  const nameData = fileName.split(".")[0];
+  const fileNameTrimmedSpace = fileName.split("-").join(" ");
+  const nameData = fileNameTrimmedSpace.split(".")[0];
   const [owner, pet] = nameData.split("_");
 
   if (owner && pet) {
