@@ -37,7 +37,7 @@ petImages.forEach((fileName) => {
     card.className = "pet-card";
 
     card.innerHTML = `
-            <img src="assets/${fileName}" alt="${pet}" onerror="this.src='https://via.placeholder.com/250x200?text=Image+Missing'">
+            <img src="assets/${fileName}" alt="${pet}" />
             <div class="pet-info">
                 <p class="pet-name">${pet.charAt(0).toUpperCase() + pet.slice(1)}</p>
                 <p class="owner-name">Owner: ${owner.charAt(0).toUpperCase() + owner.slice(1)}</p>
