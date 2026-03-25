@@ -2,8 +2,8 @@
 // Format: "studentName_petName.jpg"
 const petImages = [
   // add your pet file(s) name below this line with a comma at the end:
-  "alison_ninja.jpg",
-  "james_dani-dog.jpg",
+  "alison_ninja.JPG",
+  "James_Dani-Dog.jpg",
   "shruti_gigi.jpg",
   "mollie_raster.jpg",
   "rees_bjorn.jpg",
@@ -15,7 +15,7 @@ const petImages = [
   "chris_bandit.jpeg",
   "sam_lady-cat.jpg",
   "ana_sakura.jpg",
-  "ashley_james-the-dream.jpg",
+  "Ashley_james-the-dream.jpg",
 ];
 
 /*
