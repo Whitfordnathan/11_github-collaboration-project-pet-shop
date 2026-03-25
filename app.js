@@ -2,7 +2,7 @@
 // Format: "studentName_petName.jpg"
 const petImages = [
   // add your pet file(s) name below this line with a comma at the end:
-  "alison_ninja.JPG",
+  "alison_ninja.jpg",
   "james_dani-dog.jpg",
   "shruti_gigi.jpg",
   "mollie_raster.jpg",
@@ -37,7 +37,7 @@ petImages.forEach((fileName) => {
     card.className = "pet-card";
 
     card.innerHTML = `
-            <img src="assets/${fileName}" alt="${pet}" />
+            <img src="./assets/${fileName}" alt="${pet}" />
             <div class="pet-info">
                 <p class="pet-name">${pet.charAt(0).toUpperCase() + pet.slice(1)}</p>
                 <p class="owner-name">Owner: ${owner.charAt(0).toUpperCase() + owner.slice(1)}</p>
