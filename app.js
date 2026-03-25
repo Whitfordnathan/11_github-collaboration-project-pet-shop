@@ -7,6 +7,7 @@ const petImages = [
     'alison_ninja.JPG',
     'james_dani-dog.jpg',
     "shruti_gigi.jpg",
+    "mollie_raster.jpg",
 ];
 
 /*
